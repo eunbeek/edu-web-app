@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css'
+import '../../App.css'
 import {Navbar, Container,Nav, NavDropdown} from 'react-bootstrap';
 
 class Header extends React.Component{
@@ -18,14 +18,14 @@ class Header extends React.Component{
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href="/About" style={space}>About</Nav.Link>
+                                {/* <Nav.Link href="/About" style={space}>About</Nav.Link> */}
                                 <Nav.Link href="#link" style={space}>RoadMap</Nav.Link>
                                 <NavDropdown title="Courses" id="basic-nav-dropdown"style={space}>
-                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1">Coding</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2">Physics</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.3">Math</NavDropdown.Item>
+                                    {/* <NavDropdown.Divider />
+                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
                                 </NavDropdown>
                                 <Nav.Link href="#link" style={space}>Challenge</Nav.Link>
                                 <Nav.Link href="#link" style={space}>FAQ</Nav.Link>

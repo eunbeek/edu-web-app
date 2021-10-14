@@ -1,5 +1,5 @@
 import React  from 'react';
-import '../App.css';
+import '../../App.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import {Card, Button, CardColumns} from 'react-bootstrap';
@@ -38,10 +38,10 @@ class Notice extends React.Component{
                 showThumbs='false'
                 >
                     <div>
-                        <img src="/resource/holder/holder01.png" alt=""/>
+                        <img src="/resource/holder/newcourse01.png" alt=""/>
                     </div>
                     <div>
-                        <img src="/resource/holder/holder02.png" alt=""/>
+                        <img src="/resource/holder/newcourse02.png" alt=""/>
                     </div>
                     <div>
                         <img src="/resource/holder/holder03.png" alt=""/>

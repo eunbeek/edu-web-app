@@ -56,8 +56,9 @@
   color: #ffffff;
 }
 
-.PageTitle {
-  text-align: left;
+.titlePage {
+  font-size: 1in;
+  font-weight: 500;
 }
 
 .searchBar {

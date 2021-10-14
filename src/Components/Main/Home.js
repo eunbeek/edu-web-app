@@ -1,6 +1,6 @@
 import React  from 'react';
-import '../App.css';
-import RouterConfig from '../RouterConfig';
+import '../../App.css';
+import RouterConfig from '../../RouterConfig';
 
 class Home extends React.Component{
     render(){
